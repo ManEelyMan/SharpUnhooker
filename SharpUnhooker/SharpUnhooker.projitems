@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d39e8dcf-6b60-45d2-929d-d938fe1795e3</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SharpUnhooker</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Dynavoke.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PatchAMSIAndETW.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PEHeader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SharpUnhooker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SUUsageExample.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Win32.cs" />
+  </ItemGroup>
+</Project>

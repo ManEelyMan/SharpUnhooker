@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharpUnhooker", "SharpUnhooker\SharpUnhooker.shproj", "{D39E8DCF-6B60-45D2-929D-D938FE1795E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpUnhookerExe", "SharpUnhookerExe\SharpUnhookerExe.csproj", "{51D93C9A-6A87-40AD-987E-E92F9D151089}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51D93C9A-6A87-40AD-987E-E92F9D151089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D93C9A-6A87-40AD-987E-E92F9D151089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D93C9A-6A87-40AD-987E-E92F9D151089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D93C9A-6A87-40AD-987E-E92F9D151089}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB0F2937-5999-4F03-AAA3-94A479A3F25E}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharpUnhooker\SharpUnhooker.projitems*{51d93c9a-6a87-40ad-987e-e92f9d151089}*SharedItemsImports = 4
+		SharpUnhooker\SharpUnhooker.projitems*{d39e8dcf-6b60-45d2-929d-d938fe1795e3}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
